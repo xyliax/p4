@@ -29,18 +29,20 @@ void main(integer a) {
     record point p;
     record Record2D r1;
     record Record3D s;
+    return (Record3D[integer] == (s[Record3D]).r1[Record2D]);
+    funcTest[integer, boolean, integer, point->boolean](k[integer], bb[boolean], Record3D[integer], p[point]);
     Record3D[integer] = (p[point]).x[integer];
     Record3D[integer] = ((r1[Record2D]).p[point] > ((s[Record3D]).r1[Record2D]).p[point]);
     Record3D[integer] = (((s[Record3D]).r1[Record2D]).p[point]).x[integer];
-    (p[point]).x[integer] = 9;
+    (p[point]).x[integer] = 999999;
     Record3D[integer] = ((p[point]).x[integer] + ((r1[Record2D]).p[point]).x[integer]);
     Record3D[integer] = ((p[point]).x[integer] - ((r1[Record2D]).p[point]).x[integer]);
     Record3D[integer] = ((p[point]).x[integer] * ((r1[Record2D]).p[point]).x[integer]);
     Record3D[integer] = ((p[point]).x[integer] / ((r1[Record2D]).p[point]).x[integer]);
-    Record3D[integer] = (-3);
+    Record3D[integer] = (-99999);
     Record3D[integer] = true;
     Record3D[integer] = false;
-    Record3D[integer] = "hello";
+    Record3D[integer] = "string";
     Record3D[integer] = (\p[point]);
     Record3D[integer] = (-p[point]);
     print <- Record3D[integer];
@@ -61,15 +63,13 @@ void main(integer a) {
         }
     }
     else {
-        integer elseelse;
-        while ((elseelse[integer] > 0)) {
+        integer okokok;
+        while ((okokok[integer] > 0)) {
             integer kk;
             while ((kk[integer] > 0)) {
                 integer kk;
             }
         }
     }
-    return (Record3D[integer] == (s[Record3D]).r1[Record2D]);
-    funcTest[integer, boolean, integer, point->boolean](k[integer], bb[boolean], Record3D[integer], p[point]);
 }
 

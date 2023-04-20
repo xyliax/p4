@@ -16,11 +16,11 @@ record Record3D(
        integer Record3D;
 );
 
-boolean funcTest(integer a, integer b, boolean c, integer d ){
+boolean this_is_f(integer a, integer b, boolean c, integer d ){
 
 }
 
-boolean funcTest(integer a, integer b, boolean c){
+boolean this_is_f(integer a, integer b, boolean c){
 
 }
 
@@ -34,18 +34,20 @@ void main(integer a){
      record Record2D r1;
      record Record3D s;
 
+     return Record3D == s.r1;
+     this_is_f(k, bb, Record3D, p);
      Record3D = p.x;
      Record3D = r1.p > s.r1.p;
      Record3D = s.r1.p.x;
-     p.x = 9;
+     p.x = 999999;
      Record3D = p.x + r1.p.x;
      Record3D = p.x - r1.p.x;
      Record3D = p.x * r1.p.x;
      Record3D = p.x / r1.p.x;
-     Record3D = -3;  
+     Record3D = -99999;  
      Record3D = true;
      Record3D = false;
-     Record3D = "hello";	
+     Record3D = "string";	
      Record3D = \p;
      Record3D = -p;
 
@@ -69,8 +71,8 @@ void main(integer a){
 	     }
 	}
 		}else{
-        	    integer elseelse;
-	    while(elseelse > 0){
+        	    integer okokok;
+	    while(okokok > 0){
 	       integer kk;
 	       while(kk > 0){
 		   integer kk;
@@ -78,8 +80,6 @@ void main(integer a){
 	    }
      }
 
-     return Record3D == s.r1;
-     funcTest(k, bb, Record3D, p);
 
 }
 
