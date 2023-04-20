@@ -1,0 +1,75 @@
+integer global;
+boolean b;
+record point(
+    integer x;
+    integer y;
+);
+
+record Record2D(
+    record point p;
+    integer z;
+);
+
+record Record3D(
+    record Record2D r1;
+    integer Record3D;
+);
+
+boolean funcTest(integer a, integer b, boolean c, integer d) {
+}
+
+boolean funcTest(integer a, integer b, boolean c) {
+}
+
+void main(integer a) {
+    integer global;
+    boolean bb;
+    integer k;
+    integer Record3D;
+    record point p;
+    record Record2D r1;
+    record Record3D s;
+    Record3D[integer] = (p[point]).x[integer];
+    Record3D[integer] = ((r1[Record2D]).p[point] > ((s[Record3D]).r1[Record2D]).p[point]);
+    Record3D[integer] = (((s[Record3D]).r1[Record2D]).p[point]).x[integer];
+    (p[point]).x[integer] = 9;
+    Record3D[integer] = ((p[point]).x[integer] + ((r1[Record2D]).p[point]).x[integer]);
+    Record3D[integer] = ((p[point]).x[integer] - ((r1[Record2D]).p[point]).x[integer]);
+    Record3D[integer] = ((p[point]).x[integer] * ((r1[Record2D]).p[point]).x[integer]);
+    Record3D[integer] = ((p[point]).x[integer] / ((r1[Record2D]).p[point]).x[integer]);
+    Record3D[integer] = (-3);
+    Record3D[integer] = true;
+    Record3D[integer] = false;
+    Record3D[integer] = "hello";
+    Record3D[integer] = (\p[point]);
+    Record3D[integer] = (-p[point]);
+    print <- Record3D[integer];
+    scan -> Record3D[integer];
+    if (((p[point]).x[integer] > ((r1[Record2D]).p[point]).x[integer])) {
+        integer bb;
+        record Record3D inside;
+        bb[integer] = (global[integer] - 3);
+        bb[integer] = ((inside[Record3D]).r1[Record2D]).p[point];
+    }
+    if (((k[integer] <= 0) || ((p[point]).x[integer] >= ((r1[Record2D]).p[point]).x[integer]))) {
+        integer k;
+        if (((k[integer] > 0) && ((p[point]).x[integer] > ((r1[Record2D]).p[point]).x[integer]))) {
+            integer k;
+            if ((k[integer] > 0)) {
+                integer k;
+            }
+        }
+    }
+    else {
+        integer elseelse;
+        while ((elseelse[integer] > 0)) {
+            integer kk;
+            while ((kk[integer] > 0)) {
+                integer kk;
+            }
+        }
+    }
+    return (Record3D[integer] == (s[Record3D]).r1[Record2D]);
+    funcTest[integer, boolean, integer, point->boolean](k[integer], bb[boolean], Record3D[integer], p[point]);
+}
+

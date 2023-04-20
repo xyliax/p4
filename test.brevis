@@ -1,0 +1,85 @@
+integer global;
+boolean b;
+
+record point(
+       integer x;
+       integer y;
+);
+
+record Record2D(
+       record point p;
+       integer z;
+);
+
+record Record3D(
+       record Record2D r1;
+       integer Record3D;
+);
+
+boolean funcTest(integer a, integer b, boolean c, integer d ){
+
+}
+
+boolean funcTest(integer a, integer b, boolean c){
+
+}
+
+void main(integer a){
+
+     integer global;
+     boolean bb;
+     integer k;
+     integer Record3D;
+     record point p;
+     record Record2D r1;
+     record Record3D s;
+
+     Record3D = p.x;
+     Record3D = r1.p > s.r1.p;
+     Record3D = s.r1.p.x;
+     p.x = 9;
+     Record3D = p.x + r1.p.x;
+     Record3D = p.x - r1.p.x;
+     Record3D = p.x * r1.p.x;
+     Record3D = p.x / r1.p.x;
+     Record3D = -3;  
+     Record3D = true;
+     Record3D = false;
+     Record3D = "hello";	
+     Record3D = \p;
+     Record3D = -p;
+
+     print <- Record3D;
+     scan -> Record3D;
+
+    if(p.x > r1.p.x){
+    	integer bb;
+	record Record3D inside;
+	bb = global - 3 ;
+	bb = inside.r1.p;
+    }
+
+    if(k <= 0 || p.x >= r1.p.x){
+    	integer k;
+
+	if(k > 0 && p.x > r1.p.x){
+	     integer k;
+	     if(k > 0){
+	     	  integer k;
+	     }
+	}
+		}else{
+        	    integer elseelse;
+	    while(elseelse > 0){
+	       integer kk;
+	       while(kk > 0){
+		   integer kk;
+	 	 }
+	    }
+     }
+
+     return Record3D == s.r1;
+     funcTest(k, bb, Record3D, p);
+
+}
+
